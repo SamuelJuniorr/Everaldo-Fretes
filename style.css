@@ -94,12 +94,13 @@ h3{
 
 .area-2{
     display: flex;
+    justify-content: space-between;
     flex-direction: row-reverse;
     border: 1px solid gainsboro;
 }
 
 .left-2{
-    width: 90%;
+    width: 55%;
     padding-right: 10px;
 }
 
@@ -122,11 +123,11 @@ button a{
 }
 .right-2{
     display: flex;
-    justify-content: flex-start;
+    
 }
 
 .right-2 img{
-    width: 55%;
+    width:18vw;
 }
 
 .footer{
@@ -179,11 +180,13 @@ button:hover{
 
     .right img{
         width: 60%;
+        padding-bottom: 15px;
     }
 
     .right-2 img{
-        width: 50%;
+        width: 70%;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .left, 
@@ -203,3 +206,4 @@ button:hover{
         padding: 10px;
     }
 }
+
